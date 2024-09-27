@@ -1,7 +1,7 @@
 localStorage.clear()
 var home = document.getElementById('home')
 var menu = document.getElementById('menu')
-var txt = '#Enjoy Food and Shopping.'
+var txt = 'Enjoy Food and Shopping.'
 var delay = 100
 var index = 0
 var follower = document.getElementById('follower')
