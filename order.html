@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Service</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <div class="container">
+        <label for="nm"><p style="font-size: 1.5vw;">Name:</p></label>
+        <input type="text" class="inp" placeholder="Name" id="nm" required>
+        
+        <label for="em"><p style="font-size: 1.5vw;">Email:</p></label>
+        <input type="email" class="inp" placeholder="Email" id="em" required>
+        
+        <label for="add"><p style="font-size: 1.5vw;">Address:</p></label>
+        <input type="text" class="inp" placeholder="Address" id="add" required>
+        <div id="sent">
+        <button type="submit" class="btn" id="sub">Send it!</button>
+        </div>
+        <div id="btn">
+        <button class="btn" id="checkorder">Check your order</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="order.js"></script>
+</body>
+</html>
